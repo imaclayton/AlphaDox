@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlphaDox</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="share_app">Share App</string>
+    <string name="communicate">Communicate</string>
+    <string name="school_of_business">SCHOOL OF BUSINESS</string>
+    <string name="school_of_htm">SCHOOL OF HTM</string>
+    <string name="school_of_media">SCHOOL OF MEDIA</string>
+    <string name="schoool_of_ict">SCHOOOL OF ICT</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

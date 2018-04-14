@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_ict"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/schoool_of_ict" />
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/school_of_media" />
+        <item
+            android:id="@+id/nav_htm"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/school_of_htm" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/school_of_business"/>
+
+
+        <item android:title="@string/communicate">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_share"
+                        android:icon="@drawable/ic_menu_share"
+                        android:title="@string/share_app" />
+                    <item
+                        android:id="@+id/nav_feedback"
+                        android:icon="@android:drawable/ic_dialog_email"
+                        android:iconTint="@color/colorPrimary"
+                        android:title="@string/help_feedback"
+                        tools:ignore="UnusedAttribute" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
