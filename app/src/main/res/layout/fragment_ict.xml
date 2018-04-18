@@ -3,7 +3,8 @@
     android:id="@+id/ict"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="e.immanuelclayton.alphadox.IctFragment">
+    android:background="@drawable/images"
+    tools:context="e.immanuelclayton.alphadox.sch.ict.UI.IctFragment">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -19,8 +20,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/background">
+            android:layout_alignParentTop="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:paddingTop="10dp"
                     android:text="SCHOOL OF ICT"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@android:color/holo_green_light"
+                    android:textColor="#2900cc"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
@@ -56,7 +56,8 @@
                     android:textColor="#fff"
                     android:textSize="18sp"
                     android:textStyle="bold|italic"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
 
                 <Button
                     android:id="@+id/button3"
@@ -74,7 +75,8 @@
                     android:textColor="#fff"
                     android:textSize="18sp"
                     android:textStyle="bold|italic"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
 
                 <Button
                     android:id="@+id/button4"
@@ -92,7 +94,8 @@
                     android:textColor="#fff"
                     android:textSize="18sp"
                     android:textStyle="bold|italic"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
 
                 <Button
                     android:id="@+id/button5"
@@ -102,7 +105,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/counter_shape"
-                    android:backgroundTint="#6efaa250"
+                    android:backgroundTint="#c8870221"
                     android:padding="10dp"
                     android:text="TIMETABLE"
                     android:textAlignment="center"
@@ -110,7 +113,8 @@
                     android:textColor="#fff"
                     android:textSize="18sp"
                     android:textStyle="bold|italic"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
 
                 <Button
                     android:id="@+id/button6"
@@ -120,7 +124,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/counter_shape"
-                    android:backgroundTint="#6efaa250"
+                    android:backgroundTint="#c8870221"
                     android:padding="10dp"
                     android:text="NOTIFICATIONS"
                     android:textAlignment="center"
@@ -128,7 +132,8 @@
                     android:textColor="#fff"
                     android:textSize="18sp"
                     android:textStyle="bold|italic"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
 
             </LinearLayout>
         </ScrollView>

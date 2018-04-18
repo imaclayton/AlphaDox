@@ -22,34 +22,4 @@
 
     <include layout="@layout/content_main2" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:clickable="false"
-        app:backgroundTint="@color/ic_launcher_background"
-        app:srcCompat="@drawable/images" />
-    <android.support.design.widget.FloatingActionButton
-        android:id="@drawable/msword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|start"
-        android:layout_margin="16dp"
-        android:clickable="false"
-        app:backgroundTint="@color/ic_launcher_background"
-        app:srcCompat="@drawable/msword"
-        android:focusable="true"/>
-    <android.support.design.widget.FloatingActionButton
-        android:id="@drawable/pdf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_margin="16dp"
-        android:clickable="false"
-        app:backgroundTint="@color/ic_launcher_background"
-        app:srcCompat="@drawable/pdf"
-        android:focusable="true"/>
-
 </android.support.design.widget.CoordinatorLayout>

@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +21,20 @@
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ButtonsActivity" />
+        <activity android:name=".ItKnecActivity" />
+        <activity android:name=".ItStPaulActivity" />
+        <activity android:name=".ItIntCertificationActivity" />
+        <activity android:name=".ItNotificationActivity" />
+        <activity android:name=".ItTimetableActivity" />
+        <activity android:name=".MedStPaulActivity" />
+        <activity android:name=".MedTtableActivity" />
+        <activity android:name=".MedNotificationActivity" />
+        <activity android:name=".HtmKnecActivity" />
+        <activity android:name=".HtmTtableActivity" />
+        <activity android:name=".HtmNotificationActivity" />
+        <activity android:name=".BusKnecActivity" />
+        <activity android:name=".BusTtableActivity" />
+        <activity android:name=".BusNotificationActivity"/>
     </application>
 
 </manifest>
